@@ -1,0 +1,42 @@
+<!--
+  Generated template for the NewProductPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Producto Nuevo</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <form (ngSubmit)="saveProducts()">
+    <ion-list>
+      <ion-item stacked>
+        <ion-label stacked>Nombre</ion-label>
+        <ion-input type="text" aria-placeholder="Nombre del producto" [(ngModel)]="nombre" name="nombre"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>Precio</ion-label>
+        <ion-input type="text" aria-placeholder="Precio del producto" [(ngModel)]="precio" name="precio"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label stacked>Descripción</ion-label>
+          <ion-input type="text" aria-placeholder="Descripción del producto" [(ngModel)]="descripcion" name="descripcion"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label stacked>Categoría</ion-label>
+          <ion-input type="text" aria-placeholder="Categoría del producto" [(ngModel)]="categoria" name="categoria"></ion-input>
+        </ion-item>
+    </ion-list>
+    <div padding>
+      <button ion-button block type="submit">Guardar</button>
+    </div>
+  </form>
+
+</ion-content>

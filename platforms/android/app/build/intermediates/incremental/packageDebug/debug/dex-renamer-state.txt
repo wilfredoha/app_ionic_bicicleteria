@@ -1,0 +1,4 @@
+#Sat Sep 22 20:01:07 COT 2018
+base.0=D\:\\AAA_WILFREDO\\AAA_U_MANIZALES\\2_semestre_2\\programacion_4\\ionic\\loginList\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=D\:\\AAA_WILFREDO\\AAA_U_MANIZALES\\2_semestre_2\\programacion_4\\ionic\\loginList\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
